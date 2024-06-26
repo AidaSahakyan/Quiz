@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLES/reset.css">
+    
+    <link rel="stylesheet" href="STYLES/thirdStyle.css">
+    <link rel="stylesheet" href="STYLES/body.css">
+    <title>Document</title>
+</head>
+<body>
+  <div id="window"  class="white_window window  hidden ">
+    <div  class="title_box">
+    <div  class="title">Awesome Quiz Aplication</div>
+    <div class="time"> Time Left 
+      <div class="time_box">15</div> 
+    </div>
+ </div>
+  
+
+<div class="queList">
+  <h4 id="question" class="quetion"> </h4>
+
+     <div id="butList" class="butList">
+       <!---button list-->
+    </div>
+</div> 
+
+<div class="quiz-footer">
+  <div id="done">  </div>
+<button   id="nextBtn" class="hidden">Next Que</button>
+</div>
+
+</div>
+
+<div id="lastPage" class="white_window wid hidden">
+ <div class="icon">
+  <img src="images/crown.svg" alt="crown">
+ </div>
+
+ <div class="end-title">
+  <h4>You've comleted the Quiz!</h4>
+ </div>
+
+ <div id="correct-que">
+  <p id="correct-que-count"></p>
+ </div>
+
+ <div id="end-buttons">
+   <button onclick="exitBut()" class="but">Replay Quiz</button>
+   <button onclick="exitBut()" class="exit" >Quiz Quiz</button>
+
+ </div>
+</div>
+
+
+
+<script src="JS/quetions.js" ></script>
+<script src="JS/script.js" ></script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+
+.rules-title{
+     margin: 15px 0 15px 20px; 
+    /* margin-left: 20px; */
+    font-size: 20px;
+}
+
+.rules-list{
+    line-height: 35px;
+    margin-right: 20px;
+}
+
+span{
+    color: #007bff;
+}
+
+.rules{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(75, 73, 73);
+    
+}
+
+hr{
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+
+/*****BUTTONS*****/
+
+
+.ExAndContBut{
+    display: flex;
+   justify-content: flex-end;
+   margin: 15px 20px 15px 0;
+
+}
+
+.but{
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border-color: #fff;
+    border-color: rgb(0, 123, 255);
+    transition:  0.4s;
+
+
+}
+.exit{
+    color: #007bff;
+    background-color: #fff;
+    border-color: #007bff;
+    transition: 0.4s;
+    font-size: 15px;
+    font-weight: 600;
+
+ }
+
+ .exit:hover{
+  background-color: #007bff;
+  color: #fff;
+}
+
+.but:hover{
+background-color: rgb(0,130,200);
+opacity: 0.9;
+}
+
+.hidden{
+    display: none;
+}

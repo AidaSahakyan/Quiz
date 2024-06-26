@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+
+.start_but_div{
+  position: absolute;
+    top: 50%;
+  left: 45%;
+  transform: translate(0,-50%);
+
+}
+
+.start_but{
+    /* height: 40px;
+    width: 130px;  */
+    padding: 10px 15px;
+    color:#007bff;
+    font-size: 17px;
+    border-radius: 4px;
+  border: none;    
+}
+
+
+
